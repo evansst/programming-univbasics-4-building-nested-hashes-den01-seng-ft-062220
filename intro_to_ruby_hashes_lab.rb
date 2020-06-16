@@ -22,16 +22,16 @@ def monopoly_with_third_tier
   # complexity.
   new_hash = monopoly_with_second_tier
   new_hash[:rent_in_dollars] = {
-    :one_piece_owned=>25,
-    :two_pieces_owned=>50,
-    :three_peices_owned=>100,
-    :four_pieces_owned=>200
+    :one_piece_owned => 25,
+    :two_pieces_owned => 50,
+    :three_peices_owned => 100,
+    :four_pieces_owned => 200
   }
   new_hash[:names] = {
-    :reading_railroad=>{},
-    :pennsylvania_railroad=>{},
-    :b_and_o_railroad=>{},
-    :shortline_railroad=>{}
+    :reading_railroad => {},
+    :pennsylvania_railroad => {},
+    :b_and_o_railroad => {},
+    :shortline_railroad => {}
   }
   new_hash
 end
