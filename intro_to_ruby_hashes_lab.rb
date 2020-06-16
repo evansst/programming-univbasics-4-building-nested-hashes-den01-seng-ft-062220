@@ -34,7 +34,6 @@ def monopoly_with_third_tier
     :shortline_railroad=>{}
   }
   new_hash
-
 end
 
 def monopoly_with_fourth_tier
